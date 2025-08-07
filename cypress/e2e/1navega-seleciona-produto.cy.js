@@ -7,7 +7,7 @@ describe('Buscar produto', () => {
 
   });
 
-  it.only('Deve escolher cor e tamanho de um produto', () => {
+  it('Deve escolher cor e tamanho de um produto', () => {
 
 
     cy.acessarCategoriaJackets();
