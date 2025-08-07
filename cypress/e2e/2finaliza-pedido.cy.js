@@ -38,7 +38,7 @@
       
     });
 
-   it.only('Deve remover item do carrinho', () => {
+   it('Deve remover item do carrinho', () => {
 
       cy.acessarCategoriaJackets();
       cy.clicareSelecionaVariacoesDoPrimeiroProduto();
